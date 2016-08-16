@@ -1,34 +1,14 @@
 ######################################
-DMTN-023 Pipeline Command-Line Drivers
+Simplified Version of DMTN-023 
 ######################################
 
-A brief tutorial on using the main LSST command-line processing tasks, initially developed for a tutorial session at LSST\@Europe2.
+Simplified brief tutorial for ``ci_hsc``, based on the full DMTN-023 by J. Bosch.
 
-View this technote at http://dmtn-023.lsst.io or see a preview of the
-current version in `this repo`_
+View the orig technote at http://dmtn-023.lsst.io or see a preview of this
+version in `this repo`_
 
 .. _this repo: ./index.rst
 
-
-
-..
-  Uncomment this section and modify the DOI strings to include a Zenodo DOI badge in the README
-  .. image:: https://zenodo.org/badge/doi/10.5281/zenodo.#####.svg
-     :target: http://dx.doi.org/10.5281/zenodo.#####
-
-Build this technical note
-=========================
-
-You can clone this repository and build the technote locally with `Sphinx`_
-
-.. code-block:: bash
-
-   git clone https://github.com/lsst-dm/dmtn-023
-   cd dmtn-023
-   pip install -r requirements.txt
-   make html
-
-The built technote is located at ``_build/html/index.html``.
 
 Editing this technical note
 ===========================
@@ -36,10 +16,6 @@ Editing this technical note
 You can edit the ``index.rst`` file, which is a reStructuredText document.
 A good primer on reStructuredText is available at http://docs.lsst.codes/en/latest/development/docs/rst_styleguide.html
 
-Remember that images and other types of assets should be stored in the ``_static/`` directory of this repository.
-See ``_static/README.rst`` for more information.
-
-The published technote at http://dmtn-023.lsst.io will be automatically rebuilt whenever you push your changes to the ``master`` branch on `GitHub <https://github.com/lsst-dm/dmtn-023>`_.
 
 Updating metadata
 =================
